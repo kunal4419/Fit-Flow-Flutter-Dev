@@ -1,4 +1,4 @@
-# fit_flow
+# Fit-Flow
 
 A new Flutter project.
 
