@@ -310,18 +310,6 @@ class HomeScreen extends StatelessWidget {
                     style: TextStyle(color: Colors.grey, fontSize: 13, height: 1.5),
                   ),
                   const SizedBox(height: 30),
-                  // Quick Links
-                  const Text(
-                    "Quick Links",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-                  ),
-                  const SizedBox(height: 12),
-                  FooterLink(text: "Home"),
-                  FooterLink(text: "Workouts"),
-                  FooterLink(text: "Push Day"),
-                  FooterLink(text: "Pull Day"),
-                  FooterLink(text: "Leg Day"),
-                  const SizedBox(height: 24),
                   // Connect
                   const Text(
                     "Connect",
