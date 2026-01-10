@@ -193,7 +193,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 child: const Text(
-                  "Get Started →",
+                  "Get Started",
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
