@@ -35,6 +35,36 @@ flutter pub get
 flutter run
 ```
 
+## Build Instructions
+
+### Build APK (Release)
+
+To build a release APK for Android:
+
+```bash
+flutter build apk --release
+```
+
+The generated APK will be located at `build/app/outputs/flutter-apk/app-release.apk`
+
+### Generate Splash Screen
+
+To generate the native splash screen:
+
+```bash
+dart run flutter_native_splash:create
+```
+
+### Test the Splash Screen
+
+To test the splash screen implementation:
+
+```bash
+flutter clean
+flutter pub get
+flutter run
+```
+
 ## Project Structure
 
 ```
